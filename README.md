@@ -12,6 +12,7 @@ Because we're planting virtual trees, might as well plant some real ones too! Fo
 _Please add these requirements in a list in your pull request comment, as shown in the example below:_
 
 **Example:**
+
 1. Container is a square - 350x350px
 2. I added a star to the top!
 3. Initials added: MK
