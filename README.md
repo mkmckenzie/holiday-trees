@@ -1,6 +1,9 @@
 # Holiday Trees
 We're celebrating the winter drawing near and holidays approaching by creating holiday trees using HTML & CSS!
 
+##Tutorial
+This tutorial is available on my blog [here](https://emkaydeum.wordpress.com/2017/01/01/css-html-holiday-trees/). Leave a comment there if you have questions, concerns or feedback!
+
 ## Offset Some Carbons
 Because we're planting virtual trees, might as well plant some real ones too! For 2017, I will be offsetting 1 metric ton of carbon through the [Nature Conservancy](http://www.nature.org/ourinitiatives/urgentissues/global-warming-climate-change/help/carbon-offset-program-frequently-asked-questions.xml#1) for every 3 trees "planted"\*. 
 
