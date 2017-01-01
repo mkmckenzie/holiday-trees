@@ -1,5 +1,5 @@
 # Holiday Trees
-We're celebrating the winter drawing near and holidays approaching by creating holiday trees using HTML & CSS!
+We're celebrating the winter drawing near and holidays approaching by creating holiday trees using HTML & CSS! See all the trees [here](http://holiday-trees.herokuapp.com/index.html).
 
 ##Tutorial
 This tutorial is available on my blog [here](https://emkaydeum.wordpress.com/2017/01/01/css-html-holiday-trees/). Leave a comment there if you have questions, concerns or feedback!
