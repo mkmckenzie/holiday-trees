@@ -127,14 +127,14 @@ or github link in a comment so we know who goes where!*/
  font-family: "Arial Black", Gadget, sans-serif;
 }
 
-#bess_ps {
+#bess-ps {
   margin: 15px;
   height: 320px;
   width: 320px;
   position: relative;
   display: inline-block;
 }
-#bess_ps .trunk {
+#bess-ps .trunk {
  border-color: brown transparent;
  border-style: solid;
  border-width: 0px 15px 200px;
@@ -144,7 +144,7 @@ or github link in a comment so we know who goes where!*/
  height: 0px;
  width: 0px;
 }
-#bess_ps .branch {
+#bess-ps .branch {
  border-color: green transparent;
  border-style: solid;
  height: 0px;
@@ -153,22 +153,22 @@ or github link in a comment so we know who goes where!*/
  border-width: 0 100px 120px;
  left: 17%;
 }
-#bess_ps .bottom {
+#bess-ps .bottom {
  bottom: 30px;
  border-bottom-left-radius: 50% 20px;
  border-bottom-right-radius: 50% 20px;
 }
-#bess_ps .middle {
+#bess-ps .middle {
  bottom: 80px;
  border-bottom-left-radius: 50% 60px;
  border-bottom-right-radius: 50% 60px;
 }
-#bess_ps .top {
+#bess-ps .top {
  bottom: 130px;
  border-bottom-left-radius: 50% 100px;
  border-bottom-right-radius: 50% 100px;
 }
-#bess_ps .name {
+#bess-ps .name {
  position: absolute;
  width: 300px;
  text-align: center;
@@ -177,7 +177,7 @@ or github link in a comment so we know who goes where!*/
  font-family: "Helvetica", sans-serif;
  font-weight: 100;
 }
-#bess_ps .ornament {
+#bess-ps .ornament {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50px;
@@ -185,22 +185,22 @@ or github link in a comment so we know who goes where!*/
   border-radius: 50px;
   position: absolute;
 }
-#bess_ps .one {
+#bess-ps .one {
   bottom: 70px;
   left: 160px;
   background: #b8860b;
 }
-#bess_ps .two {
+#bess-ps .two {
   bottom: 120px;
   left: 180px;
   background: #978176;
 }
-#bess_ps .three {
+#bess-ps .three {
   bottom: 170px;
   left: 140px;
   background: #b8860b
 }
-#bess_ps .four {
+#bess-ps .four {
   bottom: 110px;
   left: 120px;
   background: #978176;
