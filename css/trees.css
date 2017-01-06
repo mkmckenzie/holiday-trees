@@ -290,7 +290,7 @@ or github link in a comment so we know who goes where!*/
   display: block;
   width: 0px;
   height: 0px;
-  margin: -75px 129px;
+  margin: -92px 129px;
   -moz-transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
   -ms-transform: rotate(35deg);
@@ -338,5 +338,6 @@ or github link in a comment so we know who goes where!*/
   text-align: center;
   font-size: 100px;
   color: #323232;
-  font-family: 'Plaster', sans-serif;
+  font-family: sans-serif;
+  font-weight: bold;
 }
