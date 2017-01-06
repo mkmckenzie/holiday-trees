@@ -207,3 +207,136 @@ or github link in a comment so we know who goes where!*/
 }
 
 /* Your CSS goes below here! */
+#sfh {
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  background: #F3EFE0;
+  border: 1px solid #C0C0C0;
+}
+
+#sfh .trunk {
+ border-color: brown transparent;
+ border-style: solid;
+ border-width: 0px 15px 200px;
+ position: absolute;
+ bottom: 0px;
+ left: 43%;
+ height: 0px;
+ width: 0px;
+}
+
+#sfh .branches {
+ border-color: green transparent;
+ border-style: solid;
+ border-width: 0 100px 120px;
+ position: absolute;
+ left: 17%;
+ height: 0px;
+ width: 0;
+}
+
+#sfh .bottom {
+ bottom: 30px;
+ border-bottom-left-radius: 50% 20px;
+ border-bottom-right-radius: 50% 20px;
+}
+
+#sfh .middle {
+ bottom: 80px;
+ border-bottom-left-radius: 50% 60px;
+ border-bottom-right-radius: 50% 60px;
+}
+
+#sfh .top {
+ bottom: 130px;
+ border-bottom-left-radius: 50% 100px;
+ border-bottom-right-radius: 50% 100px;
+}
+
+#sfh .circle {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: #FDFD00;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#sfh .circle1 {
+  left: 42%;
+}
+#sfh .circle2 {
+  left: 55%;
+  bottom: 130px;
+}
+#sfh .circle3 {
+  left: 33%;
+  bottom: 100px;
+}
+#sfh .circle4 {
+  left: 47%;
+  bottom: 65px;
+}
+
+#sfh .star {
+  border-color: #FDFD00 transparent;
+  border-style: solid;
+  border-width: 0px 25px 17px;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  margin: -75px 129px;
+  -moz-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+}
+
+
+#sfh .star:before {
+  border-color: #FDFD00 transparent; /*top/bottom left/right*/
+  border-style: solid;
+  border-width: 0px 5px 15px; /*top left/right bottom*/
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: -13px;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+}
+
+#sfh .star:after {
+  border-color: #FDFD00 transparent;
+  border-style: solid;
+  border-width: 0px 25px 17px;
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  top: 0px;
+  left: -25px;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -o-transform: rotate(-70deg);
+}
+
+#sfh .name {
+  positon: absolute;
+  width: 300px;
+  text-align: center;
+  font-size: 100px;
+  color: #323232;
+  font-family: 'Plaster', sans-serif;
+}
