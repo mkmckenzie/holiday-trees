@@ -267,6 +267,7 @@ or github link in a comment so we know who goes where!*/
 
 #sfh .circle1 {
   left: 42%;
+  bottom: 170px;
 }
 #sfh .circle2 {
   left: 55%;
@@ -289,7 +290,8 @@ or github link in a comment so we know who goes where!*/
   display: block;
   width: 0px;
   height: 0px;
-  margin: -92px 129px;
+  top: 55px;
+  left: 41%;
   -moz-transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
   -ms-transform: rotate(35deg);

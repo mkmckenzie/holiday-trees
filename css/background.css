@@ -1,0 +1,20 @@
+.main-bg {
+	background: url(../img/trees.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.white-bg {
+	background-color: white;
+}
+
+#main-jumbo {
+	margin: 6em 3em;
+	background: rgba(255, 255, 255, 0.85);
+}
+
+.all-trees {
+	margin: 6em 0;
+}
