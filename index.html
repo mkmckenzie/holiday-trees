@@ -7,13 +7,6 @@
         <meta name="description" content="Take a look at our CSS styled trees and add your own! 3 trees 'planted' = 1
         metric ton of carbon offset via the Nature Conservancy. Created for CodeNewbie DC.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/background.css">
-        <link rel="stylesheet" href="css/trees.css">
-
         <!-- Bootstrap -->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -21,13 +14,20 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/background.css">
+        <link rel="stylesheet" href="css/trees.css">
+
+
     </head>
     <body class="main-bg">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-                <div class="jumbotron text-center" id="main-jumbo">
+                <div class="jumbotron text-center standard-margin transparent-ish" id="main-jumbo">
                     <div class="container">
                         <div class="jumbotron-header">
                             <h1>Holiday Trees</h1>
@@ -48,7 +48,7 @@
 
     <div class="white-bg">
         <div class="container">
-            <div class="row all-trees">
+            <div class="row standard-margin">
                 <div class="col-xs-12">
                     <div class="a-tree" id="im-an-original">
                         <!-- 
@@ -113,6 +113,21 @@
     	   </div>
         </div>
     </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row-xs-12 text-center">
+                <div class="well transparent-ish standard-margin">
+                    <h3>Virtual Trees, Real Trees</h3>
+                    <p class="muted">
+                        For every three "trees" planted, one carbon offset is purchased from the <a href="http://www.nature.org/ourinitiatives/urgentissues/global-warming-climate-change/help/carbon-offset-program-frequently-asked-questions.xml#1" target="_blank">Nature Conservancy</a>. 
+                    </p>
+                    <p class="muted">
+                        To date, we've offset 1 metric ton of carbon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </dvi>
 
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
