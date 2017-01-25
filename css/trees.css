@@ -402,6 +402,162 @@ or github link in a comment so we know who goes where!*/
  font-family: "Arial Black", Gadget, sans-serif;
 }
 
+#clara {
+  background-color: azure;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+  #clara .trunk {
+      border-color: brown transparent;
+      border-style: solid;
+      border-width: 0 10px 200px;
+      bottom: 0;
+      left: 45%;
+      height: 0px;
+      position: absolute;
+      width: 0;
+  }
+
+  #clara .branches {
+      border-color: #697858 transparent;
+      border-style: solid;
+      height: 0px;
+      position: absolute;
+      width: 0;
+      border-width: 0 100px 120px;
+      left: 17%;
+  }
+
+  #clara .bottom {
+    bottom: 30px;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+
+  }
+
+  #clara .middle {
+    bottom: 65px;
+    border-bottom-left-radius: 50% 60px;
+    border-bottom-right-radius: 50% 60px;
+  }
+
+  #clara .top {
+    bottom: 100px;
+    border-bottom-left-radius: 50% 120px;
+    border-bottom-right-radius: 50% 100px;
+  }
+
+  #clara .name {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    border: 10px #ffe766 solid;
+    font-size: 50px;
+    background-color: #ffd700;
+    color: #323232;
+    font-family: "Courier", Gadget, sans-serif;
+  }
+
+  #clara .band {
+    z-index: 3;
+    border-bottom: 3px dotted #F7F4ED;
+    position: relative;
+    width: 160px;
+    height: 60px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    
+    margin-bottom: -5px;
+    
+    left: -80px;
+  }
+
+  #clara .top .band {
+    width: 60px;
+    left: -30px;
+    height: 26px;
+    margin-top: 15px;
+  }
+
+  #clara .middle .band {
+    width: 120px;
+    left: -60px;
+    height: 36px;
+    margin-top: 10px
+  }
+
+  #clara .bottom .band {
+    margin-top: 50px;
+  }
+
+  #clara .light:before {
+    content: "*";
+    display: block;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    border-radius: 14px;
+    z-index: 10;
+    position: relative;
+  }
+  #clara .red:before {
+    background-color: #C70039;
+    color: #F27C82;    
+  }
+  #clara .silver:before {
+    background-color: #ddd;
+    color: #fff;
+  }
+  #clara .gold:before {
+    background-color: #FFCE00;
+    color: #FFF100;
+  }
+
+  #clara .light {
+    position: absolute;
+    z-index: 10;
+  }
+
+  #clara .top .light {
+    top: 30px;
+    font-size: 18px;
+  }
+  #clara .light:nth-child(2) {
+    left: 0em;
+    -webkit-transform: translate(-7px,25px);
+    -ms-transform: translate(-7px,25px);
+    transform: translate(-7px,25px);
+    
+  }
+  #clara .light:nth-child(3) {
+    left: 1em;
+    -webkit-transform: translate(-7px,-5px);
+    -ms-transform: translate(-7px,-5px);
+    transform: translate(-7px,-5px);
+
+  }
+  #clara .light:nth-child(1) {
+    left: -1em;
+    -webkit-transform: translate(-7px,-10px);
+    -ms-transform: translate(-7px,-10px);
+    transform: translate(-7px, -10px);
+
+  }
+
+  #clara .middle .light {
+    font-size: 40px;
+    top: 60px;
+  }
+
+  #clara .bottom .light {
+    font-size: 50px;
+    top: 70px;
+  }
+
 /* Your CSS goes below here! */
 
 /* Yvonne Dreptatae Sidhe-is-Me */
