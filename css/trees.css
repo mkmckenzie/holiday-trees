@@ -4,7 +4,7 @@ Do a quick text search to make sure your name or initials aren't already
 claimed in this file. You may also want to prepend your CSS with your full name 
 or github link in a comment so we know who goes where!*/
 
-/* Mary Katherine McKenzie */
+
 
 #mkm {
   background-color: azure;
@@ -560,3 +560,58 @@ or github link in a comment so we know who goes where!*/
 
 /* Your CSS goes below here! */
 
+/* Yvonne Dreptatae Sidhe-is-Me */
+#yd {
+	background-color: azure;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+#yd .trunk {
+ border-color: brown transparent;
+ border-style: solid;
+ border-width: 0px 15px 200px;
+ position: absolute;
+ bottom: 0px;
+ left: 43%;
+ height: 0px;
+ width: 0px;
+}
+#yd .branches {
+    border-color: green transparent;
+    border-style: solid;
+    height: 0px;
+    position: absolute;
+    width: 0;
+    border-width: 0 100px 120px;
+    left: 17%;
+}
+#yd  .bottom {
+  bottom: 30px;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+
+}
+#yd .middle {
+  bottom: 80px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
+	
+}
+#yd .top{
+	bottom: 130px;
+	border-bottom-left-radius: 50% 100px;
+	border-bottom-right-radius: 50% 100px;
+	
+}
+#yd .name{
+	position: absolute;
+	width: 300px;
+	text-align: center;
+	border: 20px, green;
+  font-size: 50px;
+	background-color: yellow;
+	color:green;
+}
