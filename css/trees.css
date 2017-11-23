@@ -558,6 +558,174 @@ or github link in a comment so we know who goes where!*/
     top: 70px;
   }
 
+#LeeVaughn {
+  background-color: #0000ff;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+#LeeVaughn .trunk {
+  border-color: brown transparent;
+  border-style: solid;
+  border-width: 0px 15px 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 43%;
+  height: 0px;
+  width: 0px;
+}
+
+#LeeVaughn .branches {
+  border-color: green transparent;
+  border-style: solid;
+  height: 0px;
+  position: absolute;
+  width: 0;
+  border-width: 0 102px 120px;
+  left: 17%;
+}
+
+#LeeVaughn .bottom {
+  bottom: 30px;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+#LeeVaughn .middle {
+  bottom: 80px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
+}
+
+#LeeVaughn .top {
+  bottom: 130px;
+  border-bottom-left-radius: 50% 100px;
+  border-bottom-right-radius: 50% 100px;
+}
+
+#LeeVaughn .garland {
+  z-index: 3;
+  border-bottom: 3px dotted #fff;
+  position: relative;
+  width: 160px;
+  height: 60px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  margin-bottom: -5px;
+  left: -80px;
+}
+
+#LeeVaughn .bottom .garland {
+  width: 165px;
+  margin-top: 61px;
+}
+
+#LeeVaughn .middle .garland {
+  width: 130px;
+  left: -65px;
+  height: 36px;
+  margin-top: 60px;
+}
+  
+#LeeVaughn .top .garland {
+  width: 80px;
+  left: -40px;
+  height: 26px;
+  margin-top: 35px;
+}
+
+#LeeVaughn .light {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#LeeVaughn .red {
+  background: #f00;
+  left: 49%;
+  bottom: 210px;
+}
+
+#LeeVaughn .blue {
+  background: #00f;
+  right: 42%;
+  bottom: 70px;
+}
+
+#LeeVaughn .yellow {
+  background: #ff0;
+  right: 51%;
+  bottom: 120px;
+}
+
+#LeeVaughn .orange {
+  background: #ffa500;
+  right: 60%;
+  bottom: 50px;
+}
+
+#LeeVaughn .purple {
+  background: #551a8b;
+  right: 59%;
+  bottom: 150px;
+}
+
+#LeeVaughn .green {
+  background: #32cd32;
+  right: 42%;
+  bottom: 165px;
+}
+
+#LeeVaughn .name {
+  position: absolute;
+  width: 320px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffd700;
+  font-family: "Arial Black", Gadget, sans-serif;
+  letter-spacing: 10px;
+}
+
+#LeeVaughn .snow {
+    background-image: url('https://regularlyscheduledprogrammingblog.files.wordpress.com/2017/11/snow1.png'), url('https://regularlyscheduledprogrammingblog.files.wordpress.com/2017/11/snow2.png'), url('https://regularlyscheduledprogrammingblog.files.wordpress.com/2017/11/snow3.png');
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
 /* Your CSS goes below here! */
 
 /* Yvonne Dreptatae Sidhe-is-Me */
