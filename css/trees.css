@@ -844,3 +844,99 @@ or github link in a comment so we know who goes where!*/
   left: 0px;
 }
 
+#taggervng {
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#taggervng .trunk {
+  border-color: brown transparent;
+  border-style: solid;
+  border-width: 0px 15px 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 44%;
+  height: 0px;
+  width: 0px;
+}
+
+#taggervng .branch {
+  border-color: green transparent;
+  border-style: solid;
+  height: 0;
+  position: absolute;
+  width: 0;
+  border-width: 0 100px 120px;
+  left: 17%
+}
+
+#taggervng .bottom {
+  bottom: 30px;
+  border-bottom-left-radius: 50% 40px;
+  border-bottom-right-radius: 50% 40px;
+}
+
+#taggervng .middle {
+  bottom: 70px;
+  border-bottom-left-radius: 50% 80px;
+  border-bottom-right-radius: 50% 80px;
+}
+
+#taggervng .top {
+  bottom: 110px;
+  border-bottom-left-radius: 50% 100px;
+  border-bottom-right-radius: 50% 100px;
+}
+
+#taggervng .name {
+  position: absolute;
+  width: 320px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 3px 9px -2px rgba(89,87,89,0.5);
+-moz-box-shadow: 0px 3px 9px -2px rgba(89,87,89,0.5);
+box-shadow: 0px 3px 9px -2px rgba(89,87,89,0.5);
+  text-align: center;
+  font-size: 50px;
+  background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #323232;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#taggervng #yellow-ornament {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: #ffff33;
+  position: relative;
+  top: 130px;
+  left: 160px;
+}
+
+#taggervng #yellow-ornament:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: #ffff33;
+}
+
+#taggervng #blue-ornament {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: #333fff;
+  border-radius: 50px;
+  top: 230px;
+  left: 110px;
+}
