@@ -786,7 +786,7 @@ or github link in a comment so we know who goes where!*/
 
 #srw {
   background-color: #191970;
-   margin: 15px;
+  margin: 15px;
   height: 320px;
   width: 320px;
   position: relative;
@@ -845,14 +845,14 @@ or github link in a comment so we know who goes where!*/
 }
 
 #taggervng {
+  margin: 15px;
   height: 320px;
   width: 320px;
   position: relative;
   display: inline-block;
   background: #4AC29A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #taggervng .trunk {
