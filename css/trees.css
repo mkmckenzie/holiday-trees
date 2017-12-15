@@ -726,7 +726,6 @@ or github link in a comment so we know who goes where!*/
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
-/* Your CSS goes below here! */
 
 /* Yvonne Dreptatae Sidhe-is-Me */
 #yd {
@@ -940,3 +939,228 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
   top: 230px;
   left: 110px;
 }
+
+/* Katie - katieunger @ github */
+
+@-webkit-keyframes red-pulse {
+  0% { 
+    box-shadow: 
+      0 0 10px 0px #ff4545, 
+      inset -5px 0 2px #c80202;
+    transform: translate3d;
+  }
+  50% { 
+    box-shadow:
+      0 0 10px 2px #ff5757,
+      inset 5px 0 2px #FB4E4E;
+    transform: translate3d;
+  }
+  100% { 
+    box-shadow:
+      0 0 10px 0px #ff4545,
+      inset -5px 0 2px #c80202;
+    transform: translate3d
+  }
+}
+
+@-webkit-keyframes yellow-pulse {
+  0% { 
+    box-shadow: 
+      0 0 10px 0px #ffe57f,
+      inset -5px 0 2px #cca300;
+    transform: translate3d;
+  }
+  50% { 
+    box-shadow:
+      0 0 10px 2px #ffe57f,
+      inset 5px 0 2px #ffdb4c;
+    transform: translate3d;
+  }
+  100% { 
+    box-shadow:
+      0 0 10px 0px #ffe57f,
+      inset -5px 0 2px #cca300;
+    transform: translate3d
+  }
+}
+
+@-webkit-keyframes blue-pulse {
+  0% { 
+    box-shadow: 
+      0 0 10px 0px #7fb6ff,
+      inset -5px 0 2px #0058cc;
+    transform: translate3d;
+  }
+  50% { 
+    box-shadow:
+      0 0 10px 2px #7fb6ff,
+      inset 5px 0 2px #328bff;
+    transform: translate3d;
+  }
+  100% { 
+    box-shadow:
+      0 0 10px 0px #7fb6ff,
+      inset -5px 0 2px #0058cc;
+    transform: translate3d
+  }
+}
+
+@-webkit-keyframes purple-pulse {
+  0% { 
+    box-shadow: 
+      0 0 10px 0px #df99ff,
+      inset -5px 0 2px #8c00cc;
+    transform: translate3d;
+  }
+  50% { 
+    box-shadow:
+      0 0 10px 2px #df99ff,
+      inset 5px 0 2px #bf32ff;
+    transform: translate3d;
+  }
+  100% { 
+    box-shadow:
+      0 0 10px 0px #df99ff,
+      inset -5px 0 2px #8c00cc;
+    transform: translate3d
+  }
+}
+
+#keu {
+  background: #00cccc; /* For browsers that do not support gradients */    
+  background: -webkit-linear-gradient(left top, #00cccc, #6666ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #00cccc, #6666ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #00cccc, #6666ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #00cccc, #6666ff); /* Standard syntax (must be last) */
+  border: 1px solid black;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+#keu .trunk {
+ border-color: #330000 transparent;
+ border-style: solid;
+ border-width: 0px 15px 200px;
+ position: absolute;
+ bottom: 0px;
+ left: 43%;
+ height: 0px;
+ width: 0px;
+}
+
+#keu .branch {
+ border-color: #003300 transparent;
+ border-style: solid;
+ height: 0px;
+ position: absolute;
+ width: 0;
+ border-width: 0 100px 120px;
+ left: 17%;
+}
+
+#keu .bottom {
+ bottom: 30px;
+ border-bottom-left-radius: 50% 20px;
+ border-bottom-right-radius: 50% 20px;
+}
+
+#keu .middle {
+ bottom: 80px;
+ border-bottom-left-radius: 50% 60px;
+ border-bottom-right-radius: 50% 60px;
+}
+
+#keu .top {
+ bottom: 130px;
+ border-bottom-left-radius: 50% 100px;
+ border-bottom-right-radius: 50% 100px;
+}
+
+
+#keu .name {
+ position: absolute;
+ width: 100%;
+ text-align: center;
+ border: 10px #ffe766 solid;
+ font-size: 50px;
+ background-color: #ffd700;
+ color: #323232;
+ font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#keu .top >.light:nth-child(odd){
+  margin-top: 25px;
+}
+
+#keu .middle >.light:nth-child(even){
+  margin-top: 25px;
+}
+
+#keu .bottom >.light:nth-child(odd){
+  margin-top: 25px;
+}
+
+#keu .light-container {
+  z-index: 5;
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+}
+
+#keu .top.light-container {
+  left: 100px;
+  top: 100px;
+}
+
+#keu .middle.light-container {
+  left: 100px;
+  top: 175px;
+}
+
+#keu .bottom.light-container {
+  left: 80px;
+  top: 240px;
+}
+
+#keu .light {
+  display: inline;
+  margin: 10px;
+  float: left;
+  width:15px;
+  height:15px;
+  border-radius:100px;
+}
+
+#keu .red {
+  background-color: #f91515;
+  border: 1px solid #9e0000;
+  box-shadow: inset -5px 0 2px #c80202;
+  -webkit-animation: red-pulse 2s linear 1s infinite;
+}
+
+#keu .blue {
+  background-color: #006eff;
+  border: 1px solid #004db2;
+  box-shadow: inset -5px 0 2px #0058cc;
+  -webkit-animation: blue-pulse 2s linear 1s infinite;
+}
+
+#keu .yellow {
+  background-color: #ffcc00;
+  border: 1px solid #b28e00;
+  box-shadow: inset -5px 0 2px #cca300;
+  -webkit-animation: yellow-pulse 2s linear 1s infinite;
+}
+
+#keu .purple {
+  background-color: #b000ff;
+  border: 1px solid #690099;
+  box-shadow: inset -5px 0 2px #8c00cc;
+  -webkit-animation: purple-pulse 2s linear 1s infinite;
+}
+
+
+/* Your CSS goes below here! */
