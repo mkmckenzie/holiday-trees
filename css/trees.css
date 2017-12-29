@@ -1162,5 +1162,138 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
   -webkit-animation: purple-pulse 2s linear 1s infinite;
 }
 
+/* Notthatbickel @GitHub */
+#NotthatBickel {
+  background-color: #bdd4f9;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+#NotthatBickel .trunk{
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0px 15px 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 43%;
+    height: 0px;
+    width: 0px;
+    }
+
+#NotthatBickel .branch {
+    border-color: green transparent;
+    border-style: solid;
+    height: 0px;
+    position: absolute;
+    width: 0;
+    border-width: 0 100px 120px;
+    left: 17%;
+    }
+
+#NotthatBickel .bottom {
+    bottom: 30px;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+  
+}
+
+#NotthatBickel .middle {
+    bottom: 80px;
+    border-bottom-left-radius: 50% 60px;
+    border-bottom-right-radius: 50% 60px;
+  }
+
+#NotthatBickel .top {
+    bottom: 130px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+  }
+
+#NotthatBickel .name {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #EFEFEF;
+    color: #323232;
+    font-family: "Lobster", Gadget, sans-serif;
+    box-shadow: 0px 0px 1px 2px #f6ff56;
+}
+
+#NotthatBickel .circle-top-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-top-left {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    right: 40px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-middle-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 65px;
+    left: 35px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+    
+    }
+
+#NotthatBickel .circle-middle-left {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    right: 55px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-bottom-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+    }
+#NotthatBickel .circle-bottom-left {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top:70px;
+  right: 70px;
+  box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+
+#NotthatBickel .red {
+    background-color: #e74c3c;
+}
+
+#NotthatBickel .blue {
+  background-color: blue;
+}
 
 /* Your CSS goes below here! */
+
