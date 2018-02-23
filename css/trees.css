@@ -1268,7 +1268,6 @@ or github link in a comment so we know who goes where!*/
 	-webkit-animation: 0.6s red-flash ease-in-out infinite;
 	animation: 0.6s red-flash ease-in-out infinite;
 }
-
 @-webkit-keyframes red-flash {
 	40% {
 		background-color: #ea385c;
