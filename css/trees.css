@@ -1268,6 +1268,7 @@ or github link in a comment so we know who goes where!*/
 	-webkit-animation: 0.6s red-flash ease-in-out infinite;
 	animation: 0.6s red-flash ease-in-out infinite;
 }
+
 @-webkit-keyframes red-flash {
 	40% {
 		background-color: #ea385c;
@@ -1360,5 +1361,157 @@ or github link in a comment so we know who goes where!*/
 	transform: rotate(45deg);
 	-webkit-transform-origin: 100% 100%;
 	transform-origin: 100% 100%;
+}
+
+#lhc {
+	background-color: rgb(240, 186, 241);
+	margin: 15px;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	display: inline-block;
+  }
+  
+  #lhc .trunk {
+	  border-color: transparent transparent brown ;
+	  border-style: solid;
+	  border-width: 50px 20px 150px;
+	  bottom: 0;
+	  left: 44%;
+	  height: 0px;
+	  position: absolute;
+	  width: 0;
+  }
+  
+  #lhc .branches {
+   border-color: green transparent;
+   border-style: solid;
+   border-width: 0 100px 120px;
+   height: 0px;
+   width: 0;
+   position: absolute;
+   left: 19%;
+  }
+  
+  #lhc .bottom {
+   bottom: 30px;
+   border-bottom-left-radius: 50% 20px;
+   border-bottom-right-radius: 50% 20px;
+  }
+  
+  #lhc .middle {
+   bottom: 80px;
+   border-bottom-left-radius: 50% 60px;
+   border-bottom-right-radius: 50% 60px;
+  }
+  
+  #lhc .top {
+   bottom: 130px;
+   border-bottom-left-radius: 50% 100px;
+   border-bottom-right-radius: 50% 100px;
+  }
+  #lhc .band {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+	border-width: 6px;
+	border-radius: 103px;
+	clip: rect(152px, 260px, 260px, 82px);
+	margin-bottom: 15px;
+	height: 200px;
+	width: 200px;
+	right: -70px;
+	bottom: -100px;
+	margin-left: -165px;
+	position: absolute;
+  }
+  #lhc .bands {
+    background-color: transparent;
+    border-color: rgb(240, 186, 241);
+    border-style: solid;
+	border-width: 6px;
+	border-radius: 103px;
+	margin-bottom: 15px;
+	height: 200px;
+	width: 200px;
+	margin-left: -165px;
+	position: absolute;
+  }
+  #lhc .band1 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 50px;
+  }
+  #lhc .band2 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 105px;
+  }
+  #lhc .band3 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 165px;
+  }
+  #lhc .stick {
+	border-right: 5px solid brown;
+	height: 20px;
+	right: 157.5px;
+	bottom: 245px;
+	position: absolute;
+  }
+  #lhc .star {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    display: block;
+    height: 0px;
+    left: -28px;
+    position: absolute;
+    top: -10px;
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 0px;
+}
+#lhc .starContainer {
+	left: 50%;
+	top: 25px;
+	position: relative;
+}
+.star:before {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    content: '';
+    display: block;
+    height: 0;
+    left: -32px;
+    position: absolute;
+    top: 1.5px;
+    -moz-transform: rotate(-146deg);
+    -ms-transform: rotate(-146deg);
+    -webkit-transform: rotate(-146deg);
+    transform:rotate(-146deg);
+    width: 0;
+}
+.star:after {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    content: '';
+    display: block;
+    height: 0px;
+    left: -34px;
+    position: absolute;
+    top: 3px;
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    width: 0px;
 }
 /* Your CSS goes below here! */
