@@ -1182,6 +1182,12 @@ or github link in a comment so we know who goes where!*/
 	-webkit-animation: purple-pulse 2s linear 1s infinite;
 }
 
+#vld .top {
+	bottom: 130px;
+	border-bottom-left-radius: 50% 100px;
+	border-bottom-right-radius: 50% 100px;
+}
+
 #vld {
 	background: #018146;
 	background: -webkit-linear-gradient(right top, #018146, #1caef1);
@@ -1244,12 +1250,6 @@ or github link in a comment so we know who goes where!*/
 	right: 20px;
 	position: relative;
 	bottom: -10px;
-}
-
-#vld .top {
-	bottom: 130px;
-	border-bottom-left-radius: 50% 100px;
-	border-bottom-right-radius: 50% 100px;
 }
 
 #vld .top .lights:nth-of-type(1) {
@@ -1361,16 +1361,164 @@ or github link in a comment so we know who goes where!*/
 	-webkit-transform-origin: 100% 100%;
 	transform-origin: 100% 100%;
 }
+
+#lhc {
+	background-color: rgb(240, 186, 241);
+	margin: 15px;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	display: inline-block;
+  }
+  
+  #lhc .trunk {
+	  border-color: transparent transparent brown ;
+	  border-style: solid;
+	  border-width: 50px 20px 150px;
+	  bottom: 0;
+	  left: 44%;
+	  height: 0px;
+	  position: absolute;
+	  width: 0;
+  }
+  
+  #lhc .branches {
+   border-color: green transparent;
+   border-style: solid;
+   border-width: 0 100px 120px;
+   height: 0px;
+   width: 0;
+   position: absolute;
+   left: 19%;
+  }
+  
+  #lhc .bottom {
+   bottom: 30px;
+   border-bottom-left-radius: 50% 20px;
+   border-bottom-right-radius: 50% 20px;
+  }
+  
+  #lhc .middle {
+   bottom: 80px;
+   border-bottom-left-radius: 50% 60px;
+   border-bottom-right-radius: 50% 60px;
+  }
+  
+  #lhc .top {
+   bottom: 130px;
+   border-bottom-left-radius: 50% 100px;
+   border-bottom-right-radius: 50% 100px;
+  }
+  #lhc .band {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+	border-width: 6px;
+	border-radius: 103px;
+	clip: rect(152px, 260px, 260px, 82px);
+	margin-bottom: 15px;
+	height: 200px;
+	width: 200px;
+	right: -70px;
+	bottom: -100px;
+	margin-left: -165px;
+	position: absolute;
+  }
+  #lhc .bands {
+    background-color: transparent;
+    border-color: rgb(240, 186, 241);
+    border-style: solid;
+	border-width: 6px;
+	border-radius: 103px;
+	margin-bottom: 15px;
+	height: 200px;
+	width: 200px;
+	margin-left: -165px;
+	position: absolute;
+  }
+  #lhc .band1 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 50px;
+  }
+  #lhc .band2 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 105px;
+  }
+  #lhc .band3 {
+	clip: rect(130px, 250px, 260px, 60px);
+	right: 90px;
+	bottom: 165px;
+  }
+  #lhc .stick {
+	border-right: 5px solid brown;
+	height: 20px;
+	right: 157.5px;
+	bottom: 245px;
+	position: absolute;
+  }
+  #lhc .star {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    display: block;
+    height: 0px;
+    left: -28px;
+    position: absolute;
+    top: -10px;
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 0px;
+}
+#lhc .starContainer {
+	left: 50%;
+	top: 25px;
+	position: relative;
+}
+.star:before {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    content: '';
+    display: block;
+    height: 0;
+    left: -32px;
+    position: absolute;
+    top: 1.5px;
+    -moz-transform: rotate(-146deg);
+    -ms-transform: rotate(-146deg);
+    -webkit-transform: rotate(-146deg);
+    transform:rotate(-146deg);
+    width: 0;
+}
+.star:after {
+    border-color: yellow transparent;
+    border-style: solid;
+    border-width: 0 30px 21px;
+    -moz-border-end-style:dashed !important;
+    content: '';
+    display: block;
+    height: 0px;
+    left: -34px;
+    position: absolute;
+    top: 3px;
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    width: 0px;
+}
+
+
 /* Brad - cradbox on GitHub */
 #cradbox {
   background-image: url("https://ak9.picdn.net/shutterstock/videos/3108949/thumb/1.jpg");
-  margin: 15px;
-  height: 320px;
-  width: 320px;
-  position: relative;
-  display: inline-block;
-}
-
+  
 #cradbox .trunk {
   border-color: brown transparent;
   border-style: solid;
@@ -1454,4 +1602,135 @@ or github link in a comment so we know who goes where!*/
   font-family: Verdana, Arial Black, sans-serif;
 }
 
+/* Notthatbickel @GitHub */
+#NotthatBickel {
+  background-color: #bdd4f9;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+#NotthatBickel .trunk{
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0px 15px 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 43%;
+    height: 0px;
+    width: 0px;
+    }
+
+#NotthatBickel .branch {
+    border-color: green transparent;
+    border-style: solid;
+    height: 0px;
+    position: absolute;
+    width: 0;
+    border-width: 0 100px 120px;
+    left: 17%;
+    }
+
+#NotthatBickel .bottom {
+    bottom: 30px;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+  
+}
+
+#NotthatBickel .middle {
+    bottom: 80px;
+    border-bottom-left-radius: 50% 60px;
+    border-bottom-right-radius: 50% 60px;
+  }
+
+#NotthatBickel .top {
+    bottom: 130px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+  }
+
+#NotthatBickel .name {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #EFEFEF;
+    color: #323232;
+    font-family: "Lobster", Gadget, sans-serif;
+    box-shadow: 0px 0px 1px 2px #f6ff56;
+}
+
+#NotthatBickel .circle-top-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-top-left {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    right: 40px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-middle-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 65px;
+    left: 35px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+    
+    }
+
+#NotthatBickel .circle-middle-left {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    right: 55px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+#NotthatBickel .circle-bottom-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    box-shadow: 0px 0px 2px 3px #f6ff56;
+    }
+#NotthatBickel .circle-bottom-left {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top:70px;
+  right: 70px;
+  box-shadow: 0px 0px 2px 3px #f6ff56;
+}
+
+
+#NotthatBickel .red {
+    background-color: #e74c3c;
+}
+
+#NotthatBickel .blue {
+  background-color: blue;
+}
 /* Your CSS goes below here! */
