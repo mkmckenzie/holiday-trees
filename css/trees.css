@@ -1799,3 +1799,127 @@ or github link in a comment so we know who goes where!*/
 
 
 /* Your CSS goes below here! */
+
+/* ellenhafer @ github.com */
+#ellenhafer {
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.5);
+}
+
+#ellenhafer .trunk {
+  border-color: #642014 transparent;
+  border-style: solid;
+  border-width: 0 15px 200px;
+  position: absolute;
+  bottom: 0;
+  left: 43%;
+  height: 0px;
+  width: 0px;
+}
+
+#ellenhafer .branch {
+  border-color: #105410 transparent;
+  border-style: solid;
+  height: 0px;
+  position: absolute;
+  width: 0;
+  border-width: 0 100px 120px;
+  left: 17%;
+}
+
+#ellenhafer .bottom {
+  bottom: 30px;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+#ellenhafer .middle {
+  bottom: 80px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
+}
+
+#ellenhafer .top {
+  bottom: 130px;
+  border-bottom-left-radius: 50% 100px;
+  border-bottom-right-radius: 50% 100px;
+}
+
+#ellenhafer .name {
+  position: absolute;
+  width: 320px;
+  text-align: center;
+  border: 5px rgba(255,255,255,0.7) solid;
+  font-size: 40px;
+  color: rgba(255,255,255,0.7);
+  font-family: Pacifico, sans-serif;
+  letter-spacing: 2px;
+  background-color: rgba(255,255,255,0.4);
+}
+
+#ellenhafer .ornament {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: #C5A436;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.5);
+}
+
+#ellenhafer .one {
+  bottom: 70px;
+  left: 150px;
+}
+
+#ellenhafer .two {
+  bottom: 80px;
+  left: 185px;
+}
+
+#ellenhafer .three {
+  bottom: 80px;
+  left: 115px;
+}
+
+#ellenhafer .four {
+  bottom: 140px;
+  left: 115px;
+}
+
+#ellenhafer .five {
+  bottom: 130px;
+  left: 150px;
+}
+
+#ellenhafer .six {
+  bottom: 140px;
+  left: 185px;
+}
+
+#ellenhafer .seven {
+  bottom: 190px;
+  left: 150px;
+}
+
+#ellenhafer .eight {
+  bottom: 200px;
+  left: 175px;
+}
+
+#ellenhafer .nine {
+  bottom: 200px;
+  left: 125px;
+}
