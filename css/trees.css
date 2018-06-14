@@ -1923,3 +1923,62 @@ or github link in a comment so we know who goes where!*/
   bottom: 200px;
   left: 125px;
 }
+
+#kofosu2289 {
+	background-color: cadetblue;
+  	margin: 15px;
+  	height: 320px;
+  	width: 320px;
+  	position: relative;
+  	display: inline-block;
+}
+			
+#kofosu2289 .trunk {
+	border-color: brown transparent;
+	border-style: solid;
+	border-width: 0px 15px 200px;
+	position: absolute;
+	bottom: 0px;
+	left: 43%;
+	height: 0px;
+	width: 0px;
+}
+			
+#kofosu2289 .branch {
+	border-color: green transparent;
+	border-style: solid;
+	height: 0px;
+	position: absolute;
+	width: 0;
+	border-width: 0 100px 120px;
+	left: 17%;
+}
+			
+#kofosu2289 .bottom {
+	bottom: 30px;
+	border-bottom-left-radius: 50% 20px;
+	border-bottom-right-radius: 50% 20px;
+}
+			
+#kofosu2289 .middle {
+	bottom: 80px;
+	border-bottom-left-radius: 50% 60px;
+	border-bottom-right-radius: 50% 60px;
+}
+			
+#kofosu2289 .top {
+	bottom: 130px;
+	border-bottom-left-radius: 50% 100px;
+	border-bottom-right-radius: 50% 100px;
+}
+			
+#kofosu2289 .name {
+	position:absolute;
+	width: 300px;
+	text-align: center;
+	border: 10px #ffe766 solid;
+	font-size: 50px;
+	background-color: purple;
+	color: gold;
+	font-family: sans-serif;
+}
