@@ -1797,6 +1797,103 @@ or github link in a comment so we know who goes where!*/
   background-color: blue;
 }
 
+#lmhrva {background-image: url("https://wallpapercave.com/wp/xZFdldp.jpg");
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+#lmhrva .trunk {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 180px;
+    bottom: 0;
+    left: 45%;
+    height: 0px;
+    position: absolute;
+    width: 0;
+}
+
+#lmhrva .branches {
+   border-color: green transparent;
+   border-style: solid;
+   height: 0px;
+   position: absolute;
+   width: 0;
+   border-width: 0 90px 100px;
+   left: 20%;
+}
+
+#lmhrva .bottom{
+  bottom: 30px;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+#lmhrva .middle {
+  bottom: 70px;
+  border-bottom-left-radius: 50% 60px;
+  border-bottom-right-radius: 50% 60px;
+}
+
+#lmhrva .top {
+  bottom: 110px;
+  border-bottom-left-radius: 40% 90px;
+  border-bottom-right-radius: 40% 90px;
+}
+
+#lmhrva .name {
+  position: absolute;
+  width: 290px;
+  text-align: center;
+  border: 5px maroon solid;
+  background-color: #ffd700;
+  color: #800000;
+  font: bold italic 20px serif
+}
+
+#lmhrva .star {
+      margin: 80px 0;
+      left: 45%;
+      position: absolute;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-bottom: 10px solid yellow;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      transform: rotate(25deg);
+    }
+    .star:before {
+      border-bottom: 20px solid yellow;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -13px;
+      left: -8px;
+      display: block;
+      content: '';
+      transform: rotate(-25deg);
+    }
+    .star:after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 0px;
+      left: -15px;
+      width: 0px;
+      height: 0px;
+      border-bottom: 10px solid yellow;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      transform: rotate(-54deg);
+      content: '';
+    }
 
 /* Your CSS goes below here! */
 
