@@ -10,7 +10,7 @@ Because we're planting virtual trees, might as well plant some real ones too! Fo
 ## Pull Request Requirements:
 1. Your parent container must be square
 2. You must have added something new and unique to your tree
-3. You must add your name or initials to the name box
+3. You must add your name or initials to the name box!
 
 _Please add these requirements in a list in your pull request comment, as shown in the example below:_
 
